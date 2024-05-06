@@ -1,7 +1,7 @@
 ---
-title: "Rmarkdown Generico"
+title: "Lista 1 - Prof. Fernando Barros"
 output: pdf_document
-date: "2024-05-06"
+date: "2024-05"
 ---
 **Exercício 1**. Considere uma economia com o tempo discreto e infinito, i.e, t = 0, 1, 2... Nesta economia vivem duas pessoas de vida eterna indexadas por i = 1, 2. Existe um único bem, que é perecível, e cada pessoa tem uma dotação $e_t^i=1$ para todo $t$ deste bem. As preferências das pessoas sobre um fluxo de consumo $\left\{ c_t^i \right\}_{t=0}^{\infty}$ são dadas por:
 
