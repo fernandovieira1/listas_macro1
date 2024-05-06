@@ -9,3 +9,17 @@ $$u^i\left( \left\{ c_t^i \right\}_{t=0}^{\infty} \right) = \sum_{t=0}^{\infty} 
 em que $0<\beta_1<\beta_2<1$. Toda informação desta economia é pública e não há nenhum risco. Em $t=0$, antes de receber a dotação, as pessoas se encontram em um mercado central e transacionam unidades do bem de consumo para todos os períodos. Denote por $p_t$ o preço de uma unidade do bem no período $t$. Em todo $t \geq 1$ as pessoas voltam ao mercado central para executar as trocas negociadas em $t=0$. Assuma que os acordos no início dos tempos são sempre honrados pelas pessoas.
 
 (a) Defina uma alocação factível para esta economia.
+
+(b) Defina um equilíbrio competitivo (de Arrow-Debreu) para esta economia.
+
+(c) Caracterize o equilíbrio competitivo da economia.
+
+(d) Seja $\hat{c}_t^i$ o consumo de equilíbrio da pessoa i no período $t$. Mostre que:
+  - i) $\hat{c}_0^1 - \hat{c}_0^2 > 0$
+  - ii) $\lim_{t \to \infty} \hat c_t^{{1}} = 0$ e $\lim_{t \to \infty} \hat c_t^{{2}} = 2$
+
+(e) Explique a intuição dos resultados demonstrados no item anterior.
+
+(f) E fácil ver que as sequências de consumo de equilíbrio são monótonas. Escreva um código que encontre o período $t^*(\beta_1, \beta_2)$ para o qual $\hat{c}_t^1 - \hat{c}_t^2$ troca de sinal para $\beta$´s genéricos. Fixe $\beta_2=0.95$ e faça um gráfico para mostrar  $t^*(\beta_1, \beta_2)$.
+
+
