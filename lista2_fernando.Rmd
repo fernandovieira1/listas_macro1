@@ -4,3 +4,22 @@ output: pdf_document
 date: "2024-05"
 ---
 **Exercício 2**. Considere a seguinte modificação no modelo de crescimento neoclássico determinístico. As pessoas da economia têm formação de hábitos de consumo, ou seja, a utilidade é dada por:
+
+$$u\left( \left\{ c_t \right\}_{t=0}^{\infty} \right) = \sum_{t=0}^{\infty} \beta^t U(c_t, c_{t-1})$$
+
+dado um certo $c_{-1}$, em que $U(c_t, c_{t-1}) = ln \, c_t + \gamma \, ln \, c_{t-1}$. Além disso, a função de produção é dada por $f(k) = Ak^\alpha$ e todo estoque de capital se deprecia a cada período. Desse modo, o problema do planejador de escolher a trajetória de consumo que maximiza o bem-estar do consumidor pode ser escrito como: 
+
+\begin{align*}
+& \max_{\left\{c_t,k_{t+1}\right\}_{t=0}^{\infty}} \sum_{t=0}^{\infty} \beta^t (ln \, c_t + \, \gamma ln \, c_{t-1}) \\
+& \text{s.a. } c_t + k_{t+1} \leq A k_t^\alpha, \\
+& c_t, k_{t+1} \geq 0; \\
+& A > 0, \alpha \in (0,1) \\
+& \text{dados } k_0 > 0, \text{e } c_{-1} > 0
+\end{align*}
+
+em que $\beta \in (0,1)$ e $\gamma>0$. Aqui, $c_t$ representa o consumo da data $t$, $k_t$ é o estoque de capital no começo do período $t$. 
+
+(a) Escreva a equação de Bellman associada ao problema sequencial acima.
+
+(b) Seja $v^*(k_0, c_{-1})$ a função valor que resolve a equação funcional estabelecida no item anterior. Mostre que $v^*(k_0, c_{-1}) = E + F \, ln \, k_0 + G \, ln_{c-1}$ em que a trajetória ótima de capital $\left\{ k_{t+1}^* \right\}_{t=0}^{\infty}$ satisfaz $ln \, k_{t+1}^* = I + H \, ln \, k_{t}^*$ em que E, F, G, H e I são constantes. Ache fórmulas explícitas para E, F, G, H e I em função dos parâmetros A, $\beta$, $\alpha$ e $\gamma$.
+
