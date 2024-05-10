@@ -1,0 +1,6 @@
+---
+title: "Lista 2 - Prof. Fernando Barros"
+output: pdf_document
+date: "2024-05"
+---
+**Exercício 2**. Considere a seguinte modificação no modelo de crescimento neoclássico determinístico. As pessoas da economia têm formação de hábitos de consumo, ou seja, a utilidade é dada por:
