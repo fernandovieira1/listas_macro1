@@ -23,3 +23,5 @@ em que $\beta \in (0,1)$ e $\gamma>0$. Aqui, $c_t$ representa o consumo da data 
 
 (b) Seja $v^*(k_0, c_{-1})$ a função valor que resolve a equação funcional estabelecida no item anterior. Mostre que $v^*(k_0, c_{-1}) = E + F \, ln \, k_0 + G \, ln_{c-1}$ em que a trajetória ótima de capital $\left\{ k_{t+1}^* \right\}_{t=0}^{\infty}$ satisfaz $ln \, k_{t+1}^* = I + H \, ln \, k_{t}^*$ em que E, F, G, H e I são constantes. Ache fórmulas explícitas para E, F, G, H e I em função dos parâmetros A, $\beta$, $\alpha$ e $\gamma$.
 
+
+

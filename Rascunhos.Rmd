@@ -1,0 +1,48 @@
+---
+title: "Rascunhos exercícios"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+# Encontrando a Função Valor $(v^*(k_0, c_{-1}))$ e a Trajetória Ótima de Capital $(\{ k_{t+1}^* \}_{t=0}^{\infty})$
+
+## 1. Encontrando a Função Valor $(v^*(k_0, c_{-1}))$
+
+Começamos com a equação de Bellman:
+
+$$[ v(k_t, c_{t-1}) = \max_{c_t, k_{t+1}} \{ \ln \, c_t + \gamma \, \ln \, c_{t-1} + \beta v(k_{t+1}, c_t) \} ]$$
+
+Derivamos em relação a $(c_t)$ e $(k_{t+1})$ e igualamos a zero:
+
+$$[ \frac{\partial v}{\partial c_t} = \frac{1}{c_t} + \gamma \beta \frac{\partial v}{\partial c_{t+1}} = 0 ]$$
+
+$$[ \frac{\partial v}{\partial k_{t+1}} = \beta \frac{\partial v}{\partial k_{t+1}} - \alpha A k_t^{\alpha-1} = 0 ]$$
+
+Resolvendo essas equações, obtemos:
+
+$$[ c_t = \frac{1}{\beta} \left( \frac{\alpha A k_t^\alpha}{1 + \gamma \beta} \right) ]$$
+
+A trajetória ótima de capital é dada por:
+
+$$[ k_{t+1}^* = \frac{1}{1 + \gamma \beta} k_t^\alpha ]$$
+
+Agora, expressamos $v^*(k_0, c_{-1})$ em termos de $k_0$:
+
+$$[ v^*(k_0, c_{-1}) = \ln \left( \frac{1}{\beta} \left( \frac{\alpha A k_0^\alpha}{1 + \gamma \beta} \right) \right) + \gamma \, \ln \, c_{-1} + \beta v^*\left(\frac{1}{1 + \gamma \beta} k_0^\alpha, \frac{1}{\beta} \left( \frac{\alpha A k_0^\alpha}{1 + \gamma \beta} \right) \right) ]$$
+
+## 2. Encontrando a Trajetória Ótima de Capital
+
+A trajetória ótima de capital satisfaz:
+
+$$[ \ln \, k_{t+1}^* = I + H \, \ln \, k_t^* ]$$
+
+Em que:
+
+$$[ I = \ln \left( \frac{1}{1 + \gamma \beta} \right) ]$$
+
+$$[ H = \alpha ]$$
+
+Portanto, as fórmulas explícitas para $(E)$, $(F)$, $(G)$, $(H)$ e $(I)$ em função dos parâmetros $(A)$, $(\beta)$, $(\alpha)$ e $(\gamma)$ são as apresentadas acima.
+
+NONONONONO
